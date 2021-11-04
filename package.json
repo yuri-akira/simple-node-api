@@ -1,0 +1,28 @@
+{
+  "name": "simple-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js", 
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuri-akira/GitHubActions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuri-akira/GitHubActions/issues"
+  },
+  "homepage": "https://github.com/yuri-akira/GitHubActions#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "@splitsoftware/splitio": "^10.16.1",
+    "express": "^4.17.1"
+  }
+}
